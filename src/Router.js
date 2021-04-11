@@ -6,7 +6,7 @@ import InstructorDashboard from "./pages/InstructorDashboard";
 import StudentDashboard from "./pages/StudentDashboard";
 import StudentSubjectDetail from "./pages/StudentSubjectDetail";
 import LectureDetail from "./pages/LectureDetail";
-// import InstructorSubjectDetail from "./pages/InstructorSubjectDetail.jsx";
+import InstructorSubjectDetail from "./pages/InstructorSubjectDetail.jsx";
 
 
 function Routers({ location }) {
@@ -24,7 +24,7 @@ function Routers({ location }) {
                         <Route path="/student/dashboard" component={StudentDashboard} />
                         <Route path="/student/subjectDetail/Visual-Perception-for-self-driving-cars/lecture-4" component={LectureDetail} />
                         <Route path="/student/subjectDetail/Visual-Perception-for-self-driving-cars" component={StudentSubjectDetail} />
-                        {/* <Route path="/instructor/subjectDetail/Visual-Perception-for-self-driving-cars" component={InstructorSubjectDetail} /> */}
+                        <Route path="/instructor/subjectDetail/Visual-Perception-for-self-driving-cars" component={InstructorSubjectDetail} />
                     </Switch>
                 </section>
             </CSSTransition>

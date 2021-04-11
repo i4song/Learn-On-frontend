@@ -23,7 +23,10 @@
         background: $primary;
     }
     &.gray {
-        background: $gray4  ;
+        background: $gray4;
+    }
+    &.indigo {
+        background: $indigo;
     }
 }
 
@@ -53,4 +56,7 @@
     outline: none;
   }
 }
-    
+
+input[type="file"] {
+    display: none;
+}
