@@ -1,0 +1,56 @@
+@import './colors.scss';
+.Button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'SCoreDream';
+    font-weight: 700;
+    font-size: 14px;
+    color: $white;
+    width: 75px;
+    height: 25px;
+
+    cursor: pointer;
+
+    &.long {
+        width: 116px;
+    }
+    &.pink {
+        background: $salmon;
+    }
+    &.blue {
+        background: $primary;
+    }
+    &.gray {
+        background: $gray4  ;
+    }
+}
+
+.Authenticate {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 165px;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    top: 13px;
+    left: 1222px;
+}
+
+.StyledInput{
+  background-color: #FFFFFF00;
+  margin-left: 2vh;
+  border: 0px;
+  width: 140px;
+  font-family: "SCoreDream";
+  color: #00B9F1;
+  font-weight: 700;
+  font-size: 14px;
+  &:focus {
+    outline: none;
+  }
+}
+    
